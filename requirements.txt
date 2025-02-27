@@ -1,4 +1,4 @@
-https://github.com/KurimuzonAkuma/pyrogram/archive/refs/tags/v2.1.39.zip
+pyrogram
 aiohttp
 anitopy
 apscheduler
