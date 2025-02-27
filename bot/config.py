@@ -92,8 +92,8 @@ class Config:
             )
             self.TELEGRAPH_AUTHOR = config("TELEGRAPH_AUTHOR", default=None)
             self.TEMP_USER = config("TEMP_USERS", default=str())
-            self.TG_DL_CLIENT = config("TG_DL_CLIENT", default="pyrogram")
-            self.TG_UL_CLIENT = config("TG_UL_CLIENT", default="pyrogram")
+            self.TG_DL_CLIENT = config("TG_DL_CLIENT", default="telethon")
+            self.TG_UL_CLIENT = config("TG_UL_CLIENT", default="telethon")
             self.THUMB = config("THUMBNAIL", default=None)
             self.UN_FINISHED_PROGRESS_STR = config(
                 "UN_FINISHED_PROGRESS_STR", default="🤍"
