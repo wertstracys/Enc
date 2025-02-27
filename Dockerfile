@@ -1,5 +1,5 @@
 # Base Image 
-FROM fedora:41
+FROM fedora:40
 
 # 1. Setup home directory, non interactive shell and timezone
 RUN mkdir -p /bot /tgenc && chmod 777 /bot
