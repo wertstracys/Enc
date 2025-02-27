@@ -8,7 +8,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
-    name: build for amd64/arm64
+    name: build for amd64
     steps:
       -
         name: Checkout
@@ -34,6 +34,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: .
-          platforms: linux/amd64, linux/arm64
+          platforms: linux/amd64
           push: true
           tags: encodev/svtav1enc:latest,encodev/svtav1enc:${{ steps.date.outputs.date }}
