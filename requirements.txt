@@ -1,3 +1,4 @@
+https://github.com/KurimuzonAkuma/pyrogram/archive/refs/tags/v2.1.39.zip
 aiohttp
 anitopy
 apscheduler
@@ -14,8 +15,6 @@ psutil
 pycountry
 pymediainfo
 pymongo[srv]
-pyrogram==2.0.106
-#pyrogram==2.0.73
 python-decouple
 qbittorrent-api
 quote
