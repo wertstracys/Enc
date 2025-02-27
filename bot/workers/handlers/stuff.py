@@ -132,7 +132,7 @@ async def start(event, args, client):
                 ),
                 Button.url("Developer (Original)", url="t.me/danish_00"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("Fork Maintainer", url="t.me/SvtAv1Enc")],
         ],
     )
 
@@ -185,7 +185,7 @@ async def beck(event):
                 ),
                 Button.url("Developer (Original)", url="t.me/danish_00"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("Fork Maintainer", url="t.me/SvtAv1Enc")],
         ],
     )
 
