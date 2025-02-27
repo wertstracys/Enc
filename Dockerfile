@@ -24,4 +24,4 @@ RUN pip3 install -r requirements.txt
 RUN pip cache purge && dnf clean all
 
 # 7. 🗑️
-RUN rm -rf fonts scripts .env* .git* Dockerfile License *.md *.txt srun*
+RUN rm -rf fonts scripts .env* .git* Dockerfile License *.md *.txt srun* update*
